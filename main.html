@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>슬기롭개</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="java/master.js"></script>
+</head>
+
+<body>
+    <header id="mainHeader">
+        <video class="bg-video" autoplay muted playsinline width="100%" height="100%">
+            <source src="" type="video/mp4">
+        </video>
+        <nav>
+            <div class="navBox">
+                <a href><img src="icon/Menu.png" alt="메뉴" width="25"></a>
+            </div>
+            <h1 id="logo">
+                <a href="main.html"><img src="img/logo(80).png" alt="슬기롭개 로고"></a>
+            </h1>
+            <div id="mainNav">
+                <div class="navIcon">
+                    <a href="#"><img src="icon/set.png" alt="설정" class="set"></a>
+                    <a href="#"><img src="icon/Cancel_B.png" alt="뒤로가기" class="cancel"></a>
+                    
+                </div>
+                <ul>
+                    <li class="menu_open"><a href="#">Brand Story</a></li>
+                    <li class="menu_open"><a href="#">Specialist</a></li>
+                    <li class="menu_open"><a href="sub.html">Service <img src="icon/open_W.png" alt="서브메뉴 열기"
+                                class="subOpen"></a>
+                        <ul class="subNav">
+                            <li><a href="sub.html">Training</a></li>
+                            <li><a href="#">Style</a></li>
+                            <li><a href="#">Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_open"><a href="#">Gallery <img src="icon/open_W.png" alt="서브메뉴 열기"
+                                class="subOpen"></a>
+                        <ul class="subNav">
+                            <li><a href="sub.html">Training</a></li>
+                            <li><a href="#">Style</a></li>
+                            <li><a href="#">Cafe</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_open"><a href="#">Megazine</a></li>
+                    <li class="menu_open"><a href="#">예약&문의</a></li>
+                    <li class="menu_open"><a href="#">오시는 길</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <a href="#"><img src="icon/Profile.png" alt="프로필" width="40"></a>
+            </div>
+        </nav>
+        <div class="fixed">
+            <a href="#" class="tel"><img src="icon/Tel.png" alt="전화번호" width="38" ></a>
+            <a href="#" class="insta"><img src="icon/insta.png" alt="인스타" width="38" ></a>
+            <a href="#" class="kakao"><img src="icon/kakao.jpg" alt="카카오톡" width="38" ></a>
+            <a href="#" class="calinder"><img src="icon/Calinder.png" alt="예약하기" width="38" ></a>
+        </div>
+    </header>
+
+
+    <div id="contents">
+        <section id="brandStory">
+            <p class="multiline">사람과 반려견이 함께 살아가는 세상에서,
+                단순한 서비스 제공을 넘어서 서로를 이해하고 배려하며
+                소통할 수 있는 공간이 필요하다고 느꼈어요.</p>
+            <p>그래서 우리는 생각했습니다.</p>
+            <h3 class="multiline">모든 반려견이 편하게 놀 수 있는 곳,
+                내 아이처럼 사랑받는 곳,
+                보호자와 전문가가 서로 신뢰할 수 있는 곳</h3>
+            <img src="img/dog-running.png" alt="강아지가 뛰어노는 사진" width="80%">
+            <h3 class="M_skip">“슬기로운 반려생활”을 위한 공간, 지금 이 순간,</h3>
+            <h2><span class="name">슬기롭개</span>로 놀러오세요!</h2>
+        </section>
+        <!-- brandstory end -->
+        <section id="service">
+            <article class="academyBack">
+                <article id="academy">
+                    <article class="academy_inner">
+                        <article class="acaInt">
+                            <div class="title">
+                                <h2><a href="sub.html">Pet Academy</a></h2>
+                                <img src="icon/B_animal.png" alt="강아지 발바닥 아이콘" width="7%" class="M_skip">
+                            </div>
+                            <p>슬기롭개는 매달 다른 커리큘럼을 가지고 있습니다.</p>
+                            <p>매달 마지막 주에 다음달 커리큘럼이 업데이트 됩니다.</p>
+                            <img src="img/dog_training.png" alt="주인과 훈련하는 강아지" width="90%" class="M_skip">
+                        </article>
+                        <article class="specialist">
+                            <article class="specialistInt">
+                                <h2>Main Trainer</h2>
+                                <p>KKC 반려견지도사 보유</p>
+                                <p>KKC 펫시터 자격증 보유</p>
+                                <p>KKC 반려동물관리사 자격 보유</p>
+                                <p>KKC 클리커자격증 보유</p>
+                                <p>KKC 킨더 독 튜더 수료</p>
+                                <p>현) 슬기롭개 반려견유치원 대표</p>
+                            </article>
+                            <img src="img/trainer.jpg" alt="메인 트레이너의 프로필 사진" width="55%">
+                        </article>
+                    </article>
+                    <article class="CurriculumBox">
+                        <article class="8Curriculum">
+                            <h2>이달의 커리큘럼</h2>
+                            <img src="img/D_8Curriculum.png" alt="이달의 커리큘럼" width="100%" class="M_skip">
+                            <img src="img/M_8Curriculum.png" alt="이달의 커리큘럼" width="100%" class="D_skip">
+                        </article>
+                        <article class="9Curriculum">
+                            <h2>다음달의 커리큘럼</h2>
+                            <img src="img/D_9Curriculum.png" alt="다음달의 커리큘럼" width="100%" class="M_skip">
+                            <img src="img/M_9Curriculum.png" alt="이달의 커리큘럼" width="100%" class="D_skip">
+                        </article>
+                    </article>
+
+                    <article class="AcademyPrice">
+                        <article class="Aca_price">
+                            <h2>가격표</h2>
+                            <img src="img/Aca_price.png" alt="아카데미 가격표" width="100%">
+                        </article>
+                        <article class="button">
+                            <h3>Gellary</h3>
+                            <h3>예약 & 문의</h3>
+                        </article>
+                    </article>
+                </article>
+            </article>
+
+            <article class="styleBack">
+                <article id="style">
+                    <article class="style_inner">
+                        <article class="stInt">
+                            <div class="title">
+                                <h2><a href="#">Pet Style</a></h2>
+                                <img src="icon/P_animal.png" alt="강아지 발바닥 아이콘" width="8%" class="M_skip">
+                            </div>
+                            <p>슬기롭개는 강아지들의 안전을 최우선으로 생각합니다.</p>
+                            <p>강아지들의 스트레스를 최소화하기 위해 최선을 다하겠습니다.</p>
+                            <img src="img/spaDog.png" alt="스파 중인 강아지" width="90%" class="M_skip">
+                        </article>
+
+                        <article class="specialist">
+                            <article class="specialistInt">
+                                <h2>Main Groomer</h2>
+                                <p>KKC,IJA,WGA 대회 다수 수상</p>
+                                <p>IJA , WGA 자격증 보유</p>
+                                <p>KKC 1, 2, 3급 자격증 보유</p>
+                                <p>전)애견미용학원 부원장</p>
+                                <p>현)KKC 경연대회 심사위원</p>
+                                <p>현)슬기롭개 미용실장</p>
+                            </article>
+                            <img src="img/groomer.jpg" alt="메인 스타일리스트의 프로필 사진" width="55%">
+                        </article>
+                    </article>
+
+                    <article class="stylePriceBox">
+                        <article class="stylePrice">
+                            <h2>미용 가격표</h2>
+                            <img src="img/Style_price.png" alt="미용 가격표" width="100%">
+                        </article>
+                        <article class="style_guide M_skip">
+                            <h2>미용시 주의사항</h2>
+                            <img src="img/Style_guide.png" alt="미용 주의사항" width="100%">
+                        </article>
+                    </article>
+
+                    <article class="product_BG">
+                        <h2>사용 제품</h2>
+                        <article class="productBox">
+                            <div class="product">
+                                <a href="#"><img src="img/product1.png" alt="펫에스테 머드팩" width="100%"></a>
+                                <div class="productText">
+                                    <p class="brand">펫 에스테</p>
+                                    <h2>머드팩</h2>
+                                    <p>노페물 제거</p>
+                                    <p>수분 유지</p>
+                                    <p>탈취, 향염 효과</p>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <a href="#"><img src="img/product2.png" alt="펫에스테 입욕제" width="100%"></a>
+                                <div class="productText">
+                                    <p class="brand">펫 에스테</p>
+                                    <h2>아로마 배스</h2>
+                                    <p>혈액순환 활성화</p>
+                                    <p>스트레스 완화</p>
+                                    <p>피부병 완화</p>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <a href="#"><img src="img/product3.png" alt="아이그룸 브라이트닝 샴푸" width="100%"></a>
+                                <div class="productText">
+                                    <p class="brand">아이그룸</p>
+                                    <h2>브라이트닝 샴푸</h2>
+                                    <p>밝은 코트의 화이트닝</p>
+                                    <p>어두운 코트의 다크님</p>
+                                    <p>컨디셔닝, 보습력</p>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <a href="#"><img src="img/product4.png" alt="아이그룸 볼륨샴푸" width="100%"></a>
+                                <div class="productText">
+                                    <p class="brand">아이그룸</p>
+                                    <h2>볼륨 샴푸</h2>
+                                    <p>코트의 볼륨감</p>
+                                    <p>예민피부 진정</p>
+                                    <p>컨디셔닝, 보습력</p>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <a href="#"><img src="img/product5.png" alt="아이그룸 디탱글링 컨디셔너" width="100%"></a>
+                                <div class="productText">
+                                    <p class="brand">아이그룸</p>
+                                    <h2>디탱글링 컨디셔너</h2>
+                                    <p>코트의 엉킴 방지</p>
+                                    <p>윤기와 볼륨감</p>
+                                    <p>피부의 수분감</p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- productBox end -->
+                    </article>
+                    <!-- product_BG end -->
+
+                    <article class="button">
+                        <h3>Gellary</h3>
+                        <h3>예약 & 문의</h3>
+                    </article>
+                    <!-- button end -->
+                </article>
+                <!-- style end -->
+            </article>
+            <!-- styleBack end -->
+
+            <article class="cafeBack">
+                <article id="cafe">
+                    <article class="cafeInt">
+                        <div class="title">
+                            <h2><a href="#">Pet Cafe</a></h2>
+                            <img src="icon/B_animal.png" alt="강아지 발바닥 아이콘" width="5%" class="M_skip">
+                        </div>
+                        <p>넓은 잔디밭과 수영장에서 여러분의 반려견과</p>
+                        <p>행복한 추억을 만들어 보세요.</p>
+                    </article>
+                    <article class="cafeGaide_G">
+                        <article class="cafeGaide">
+                            <h2>이용수칙</h2>
+                            <img src="img/D_Cafe_guide.png" alt="카페 이용수칙" width="100%" class="M_skip">
+                            <img src="img/M_Cafe_guide.png" alt="카페 이용수칙" width="100%" class="D_skip">
+                        </article>
+                        <article class="cafeGaide2 D_skip">
+                            <h2>입장제한 반려견</h2>
+                            <img src="img/M_Cafe_guide2.png" alt="카페 입장제한 반려견" width="100%">
+                        </article>
+                    </article>
+
+                    <article class="cafePrice M_skip">
+                        <h2>가격표</h2>
+                        <img src="img/D_Cafe_price.png" alt="카페 가격표" width="100%">
+                    </article>
+                    <article class="cafeSpace">
+                        <h2>공간 둘러보기</h2>
+                        <article class="space_BG M_skip">
+                            <div class="spaceBox">
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>외부공간</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/wisewig1.jpg" alt="슬기롭개 외관" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>수영장</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/dog_pool.jpg" alt="슬기롭개 수영장" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>유치원</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/academy.jpg" alt="슬기롭개 유치원" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>미용실</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/grooming.jpg" alt="슬기롭개 미용실" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>카운터</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/counter.jpg" alt="슬기롭개 카운터" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>카페</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/cafe.jpg" alt="슬기롭게 카페" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>루프탑</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/roofTop.jpg" alt="슬기롭개 루프탑" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="space_BG D_skip">
+                            <div class='M_spaceBox'>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>외부공간</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/wisewig1.jpg" alt="슬기롭개 외관" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>수영장</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/dog_pool.jpg" alt="슬기롭개 수영장" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>유치원</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/academy.jpg" alt="슬기롭개 유치원" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>미용실</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/grooming.jpg" alt="슬기롭개 미용실" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="M_spaceBox">
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>카운터</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/counter.jpg" alt="슬기롭개 카운터" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>카페</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/cafe.jpg" alt="슬기롭게 카페" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="space">
+                                    <a href="#">
+                                        <h6>루프탑</h6>
+                                        <div class="spaceImgBox">
+                                            <img src="img/roofTop.jpg" alt="슬기롭개 루프탑" width="100%">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </article>
+                    <article class="button">
+                        <h3>문의하기</h3>
+                    </article>
+                </article>
+                <!-- cafe end -->
+            </article>
+            <!-- cafeBack end -->
+        </section>
+        <!-- service end -->
+        <article class="galleryBack">
+            <article id="gallery">
+                <div class="title">
+                    <h2><a href="#">Gallery</a></h2>
+                    <img src="icon/P_animal.png" alt="강아지 발바닥 아이콘" width="4%" class="M_skip">
+                </div>
+                <div class="galleryBox">
+                    <article class="academy_G">
+                        <div class="gallery_T">
+                            <h5>Academy Gallery</h5>
+                            <a href="#"><img src="icon/Back_W.png" alt="아카데미 사진 페이지 들어가기" width="65%"></a>
+                        </div>
+                        <div class="aca_Pic gellaryPic">
+                            <a href="#"><img src="img/academy1.jpg" alt="아카데미 사진" width="100%"></a>
+                            <a href="#"><img src="img/academy4.jpg" alt="아카데미 사진" width="100%"></a></a>
+                            <a href="#"><img src="img/academy6.jpg" alt="아카데미 사진" width="100%"></a></a>
+                            <a href="#"><img src="img/academy8.jpg" alt="아카데미 사진" width="100%"></a></a>
+                        </div>
+                    </article>
+                    <article class="Style_G">
+                        <div class="gallery_T">
+                            <h5>Style Gallery</h5>
+                            <a href="#"><img src="icon/Back_W.png" alt="미용 사진 페이지 들어가기" width="65%"></a>
+                        </div>
+                        <div class="sty_Pic gellaryPic">
+                            <a href="#"><img src="img/grooming1.jpg" alt="미용 사진" width="100%"></a>
+                            <a href="#"><img src="img/grooming2.jpg" alt="미용 사진" width="100%"></a></a>
+                            <a href="#"><img src="img/grooming3.jpg" alt="미용 사진" width="100%"></a></a>
+                            <a href="#"><img src="img/grooming4.jpg" alt="미용 사진" width="100%"></a></a>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </article>
+        <!-- galleryBack end -->
+        <article class="megazineBack">
+            <article id="megazine">
+                <article class="megazine_T">
+                    <div class="title">
+                        <h2><a href="#">Megazine</a></h2>
+                        <img src="icon/B_animal.png" alt="강아지 발바닥 아이콘" width="5%" class="M_skip">
+                    </div>
+                    <img src="icon/Back_B.png" alt="매거진 페이지 들어가기" width="2%" height="30%">
+
+                </article>
+                <article class="megazine_BG">
+                    <article class="megazineBox">
+                        <a href="#">
+                            <img src="img/megazine1.jpg" alt="매거진 사진" width="100%" class="M_skip">
+                            <img src="img/M_megazine1.jpg" alt="매거진 사진" width="100%" class="D_skip">
+                            <p class="M_skip">#수영</p>
+                            <p class="M_skip">#여름물놀이</p>
+                        </a>
+                    </article>
+                    <article class="megazineBox">
+                        <a href="#">
+                            <img src="img/megazine2.jpg" alt="매거진 사진" width="100%" class="M_skip">
+                            <img src="img/M_megazine2.jpg" alt="매거진 사진" width="100%" class="D_skip">
+                            <p class="M_skip">#목욕꿀팁</p>
+                            <p class="M_skip">#셀프미용</p>
+                        </a>
+                    </article>
+                    <article class="megazineBox">
+                        <a href="#">
+                            <img src="img/megazine3.jpg" alt="매거진 사진" width="100%" class="M_skip">
+                            <img src="img/M_megazine3.jpg" alt="매거진 사진" width="100%" class="D_skip">
+                            <p class="M_skip">#여름철산책</p>
+                            <p class="M_skip">#더위주의</p>
+                        </a>
+                    </article>
+                    <article class="megazineBox">
+                        <a href="#">
+                            <img src="img/megazine4.jpg" alt="매거진 사진" width="100%" class="M_skip">
+                            <img src="img/M_megazine4.jpg" alt="매거진 사진" width="100%" class="D_skip">
+                            <p class="M_skip">#애견카페</p>
+                            <p class="M_skip">#펫티켓</p>
+                        </a>
+                    </article>
+                </article>
+                <!-- megazineBack end -->
+            </article>
+        </article>
+        <!-- megazineBack end -->
+        <article class="bookingBack">
+            <article id="booking">
+                <article class="booking_inner">
+                    <article class="bkInt">
+                        <div class="title">
+                            <h2><a href="#">예약 & 문의</a></h2>
+                            <img src="icon/P_animal.png" alt="강아지 발바닥 아이콘" width="4%" class="M_skip">
+                        </div>
+                        <p>슬기롭개를 이용하고 싶으시면 언제든 연락 바랍니다.</p>
+                        <p>저희는 여러분의 의견을 기다립니다.</p>
+                    </article>
+                </article>
+                <!-- booking_inner end -->
+
+                <article class="bookingBG">
+                    <article class="bookingBox">
+                        <div class="month">
+                            <ul class="select select_M" id="monthList">
+                                <li class="option" id="selectedOption">2025.08</li>
+                                <li class="option">2025.08</li>
+                                <li class="option">2025.09</li>
+                                <li class="option">2025.10</li>
+                                <li class="option">2025.11</li>
+                                <li class="option">2025.12</li>
+                                <li class="option">2026.01</li>
+                            </ul>
+                            <img src="icon/open_W.png" alt="옵션 열기" width="25%" id="roller">
+                        </div>
+
+                        <div class="dateBox">
+                            <div class="date">
+                                <h5>M</h5>
+                                <div>
+                                    <p>4</p>
+                                </div>
+
+                            </div>
+                            <div class="date">
+                                <h5>T</h5>
+                                <div>
+                                    <p>5</p>
+                                </div>
+
+                            </div>
+                            <div class="date">
+                                <h5>W</h5>
+                                <div>
+                                    <p>6</p>
+                                </div>
+
+                            </div>
+                            <div class="date">
+                                <h5>T</h5>
+                                <div>
+                                    <p>7</p>
+                                </div>
+
+                            </div>
+                            <div class="date">
+                                <h5>F</h5>
+                                <div>
+                                    <p>8</p>
+                                </div>
+
+                            </div>
+                            <div class="date">
+                                <h5>S</h5>
+                                <div>
+                                    <p>9</p>
+                                </div>
+
+                            </div>
+                            <div class="date">
+                                <h5>S</h5>
+                                <div>
+                                    <p>10</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="category">
+                            <ul class="select select_C" id="categoryList">
+                                <li class="option" id="selectedCategory">미용</li>
+                                <li class="option">미용</li>
+                                <li class="option">유치원</li>
+                                <li class="option">카페</li>
+                            </ul>
+                            <img src="icon/open_P.png" alt="옵션 열기" width="12%" id="roller">
+                        </div>
+                        <div class="times">
+                            <p class="time"><a href="#">10 : 00</a></p>
+                            <p class="time"><a href="#">10 : 30</a></p>
+                            <p class="time"><a href="#">11 : 00</a></p>
+                            <p class="time"><a href="#">11 : 30</a></p>
+                            <p class="time"><a href="#">12 : 00</a></p>
+                            <p class="time"><a href="#">12 : 30</a></p>
+                            <p class="time"><a href="#">13 : 00</a></p>
+                            <p class="time"><a href="#">13 : 30</a></p>
+                            <p class="time"><a href="#">14 : 00</a></p>
+                            <p class="time"><a href="#">14 : 30</a></p>
+                            <p class="time"><a href="#">15 : 00</a></p>
+                            <p class="time"><a href="#">15 : 30</a></p>
+                            <p class="time"><a href="#">16 : 00</a></p>
+                            <p class="time"><a href="#">16 : 30</a></p>
+                            <p class="time"><a href="#">17 : 00</a></p>
+                            <p class="time"><a href="#">17 : 30</a></p>
+                            <p class="time"><a href="#">18 : 00</a></p>
+                        </div>
+                    </article>
+
+                    <article class="snsBack">
+                        <div class="sns">
+                            <a href="#" class="insta"><img src="icon/insta.png"></a>
+                            <div class="M_skip">
+                                <h6>@ WiseWig_Academy</h6>
+                                <h6>@ WiseWig_Grooming</h6>
+                                <h6>@ WiseWig_Cafe</h6>
+                            </div>
+                        </div>
+                        <div class="sns">
+                            <a href="#" class="kakao"><img src="icon/kakao.jpg"></a>
+                            <div class="M_skip">
+                                <h6>유치원 : WiseWig_Academy</h6>
+                                <h6>미용 : WiseWig_Grooming</h6>
+                                <h6>카페 : WiseWig_Cafe</h6>
+                            </div>
+                        </div>
+                        <div class="sns">
+                            <a href="#" class="tel"><img src="icon/Tel.png"></a>
+                            <div class="M_skip">
+                                <h6>유치원 : 070-7718-8981</h6>
+                                <h6>미용 : 070-7718-8982</h6>
+                                <h6>카페 : 070-7718-8983</h6>
+                            </div>
+                        </div>
+                        <div class="sns D_skip">
+                            <a href="#" class="calinder"><img src="icon/Calinder.png"></a>
+                        </div>
+                    </article>
+                </article>
+                <!-- bookiing_BG end -->
+            </article>
+            <!-- booking end -->
+        </article>
+        <!-- bookingBack end -->
+        <article class="placeBack">
+            <article class="place">
+                <article class="place_T">
+                    <div class="title">
+                        <h2><a href="#">Place</a></h2>
+                    </div>
+                    <p>슬기롭개는 언제나 같은 자리에 있습니다.</p>
+                    <p>항상 여러분의 방문을 기대합니다.</p>
+                    <h6 class="add">주소 : 경기도 남양주시 내각1로 73번안길 14 슬기롭개</h6>
+                    <h6 class="subway">지하철 : 4호선 진접내각역 2번 출구</h6>
+                    <div class="bus">
+                        <h6>광역 버스 : 7007, 105-1, 11</h6>
+                        <h6>일반 버스 : 1, 5-2, 6-2, 92, 707, 땡큐90</h6>
+                        <h6>공항 버스 : 8844, N8844</h6>
+                    </div>
+                </article>
+                <img src="img/wisewig2.jpg" alt="슬기롭개 외관" width="55%" class="M_skip">
+            </article>
+
+        </article>
+    </div>
+
+    <footer>
+        <div class="footer_inner">
+            <a href="main.html">
+                <img src="img/logo(80).png" alt="슬기롭개 로고" width="100%" >
+            </a>
+            <div class="slogun">
+                <img src="icon/P_animal.png" alt="강아지 발바닥 아이콘" width="4%" class="M_skip">
+                <h3>슬기로운 반려생활</h3>
+                <img src="icon/P_animal.png" alt="강아지 발바닥 아이콘" width="4%" class="M_skip">
+            </div>
+            <div class="info">
+                <p>(주)슬기롭개 ㅣ 경기도 남양주시 진접읍 내각1로 73번안길 14</p>
+                <p>대표명 : 문슬기 ㅣ 대표번호 : 070 - 7718 - 8981</p>
+                <p>E-mail : wisewig2025@naver.com ㅣ 사업자번호 : 753-01-02166</p>
+                <p>COPYRIGHT © 2025 wisewig</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
